@@ -19,6 +19,9 @@ app.config(['$routeProvider',
       when('/isolatescope', {
         templateUrl: 'partials/view3.html',
       }).
+      when('/transclusion', {
+        templateUrl: 'partials/view4.html',
+      }).
       otherwise({
         redirectTo: '/directivecontroller'
       });
