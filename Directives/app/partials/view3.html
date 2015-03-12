@@ -1,0 +1,19 @@
+<div ng-controller="ChoreCntrl as cntrl">
+	Isolate Scope &
+	<div class="jumbotron">
+		<kid done="cntrl.logChore(chore)"></kid>
+	</div>
+
+	Isolate Scope @
+	<div class="jumbotron">
+		<drink flavor="{{cntrl.cntrlFlavor1}}"></drink>
+	</div>
+
+	
+	Isolate Scope =
+	<div class="jumbotron">
+		{{cntrl.cntrlFlavor2}}
+		<drink2 flavor="cntrl.cntrlFlavor2"></drink>
+		}
+	</div>
+</div>
