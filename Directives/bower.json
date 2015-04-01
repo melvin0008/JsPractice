@@ -1,0 +1,28 @@
+{
+  "name": "Directives",
+  "version": "0.0.1",
+  "authors": [
+    "Melvin <melvin0008@gmail.com>"
+  ],
+  "description": "Learning Directives",
+  "keywords": [
+    "learn",
+    "angular",
+    "directives"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.3.14",
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2",
+    "angular-route": "~1.3.14",
+    "angular-resource": "~1.3.14"
+  }
+}
